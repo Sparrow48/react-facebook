@@ -1,0 +1,17 @@
+.iconList {
+  list-style: none;
+  margin-top: 19%;
+}
+.icons {
+  height: 18px;
+  width: 18px;
+  padding: 11px;
+  color: white;
+  border-radius: 50%;
+  background-color: rgb(87, 84, 84);
+  margin-left: 10px;
+}
+
+.icons:hover {
+  background-color: lightslategrey;
+}

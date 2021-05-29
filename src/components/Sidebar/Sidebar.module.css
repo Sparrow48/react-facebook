@@ -1,0 +1,32 @@
+.leftSidebar {
+  display: flex;
+  flex-flow: column;
+  flex: 0.5;
+  margin-top: 20px;
+  align-items: right;
+}
+
+.profileInfo {
+  display: flex;
+  padding: 0px 15px;
+  max-width: 100%;
+  text-decoration: none;
+}
+
+.profileInfo:hover {
+  background-color: rgb(87, 84, 84);
+  border-radius: 8px;
+}
+.profileInfo img {
+  height: 25px;
+  width: 25px;
+  margin-top: 8px;
+  border-radius: 50%;
+}
+
+.profileInfo p {
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 8px;
+  padding-left: 10px;
+}

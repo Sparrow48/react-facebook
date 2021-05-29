@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { ReactComponent as Home } from "../../assets/home.svg";
 import {
   FaSearch,
   FaHome,
@@ -12,17 +14,18 @@ import { MdNotificationsNone, MdArrowDropDown } from "react-icons/md";
 import { GiAbstract092 } from "react-icons/gi";
 import profilePic from "../../assets/nasib.png";
 import Logo from "../../assets/logo.png";
+import NavbarLeftItem from "./NavbarLeftItem/NavbarLeftItem";
 
-import classes from "./Header.module.css";
+import classes from "./Navbar.module.css";
 
 function Header() {
   return (
-    <div className={classes.navbar}>
+    <nav className={classes.navbar}>
       {/*  ------------------------Navbar left part----------------- */}
       <div className={classes.firstPart}>
-        <a href='/'>
+        <Link to='/'>
           <img src={Logo} alt='Facebook_Logo' />
-        </a>
+        </Link>
         <div className={classes.searchOption}>
           <FaSearch className={classes.icon} />
           <input type='text' placeholder='Search Facebook' />
@@ -31,49 +34,53 @@ function Header() {
 
       {/*  ------------------------Navbar Middle part----------------- */}
       <div className={classes.middlePart}>
-        <a href='/'>
+        <Link to='/'>
           <FaHome className={classes.iconMiddle} />
-        </a>
-        <a href='/'>
+        </Link>
+        <Link to='/watch'>
           <FaTv className={classes.iconMiddle} />
-        </a>
-        <a href='/dd'>
+        </Link>
+        <Link to='/marketPlace'>
           <FaStore className={classes.iconMiddle} />
-        </a>
-        <a href='/'>
+        </Link>
+        <Link to='/groups/feed/'>
           <FaUsers className={classes.iconMiddle} />
-        </a>
-        <a href='/'>
+        </Link>
+        <Link to='/gaming'>
           <GiAbstract092 className={classes.iconMiddle} />
-        </a>
+        </Link>
       </div>
 
       {/*  ------------------------Navbar right part----------------- */}
       <div className={classes.lastPart}>
-        <a href='/' className={classes.profileDetails}>
+        <Link to='/profile' className={classes.profileDetails}>
           <img src={profilePic} alt='Profile_picture' />
           <p>
             <span>
               <strong>Nasib</strong>
             </span>
           </p>
-        </a>
+        </Link>
+        <NavbarLeftItem icon={<FaPlus />} />
+        <NavbarLeftItem icon={<FaFacebookMessenger />} />
+        <NavbarLeftItem icon={<MdNotificationsNone />} />
+        <NavbarLeftItem icon={<MdArrowDropDown />} />
 
-        <a href='/'>
+        {/* <Link to='/'>
           <FaPlus className={classes.iconLast} />
-        </a>
-        <a href='/'>
+        </Link>
+        <Link to='/'>
           <FaFacebookMessenger className={classes.iconLast} />
-        </a>
-        <a href='/'>
+        </Link>
+        <Link to='/'>
           <MdNotificationsNone className={classes.iconLast} />
-        </a>
+        </Link>
 
-        <a href='/'>
+        <Link to='/'>
           <MdArrowDropDown className={classes.iconLast} />
-        </a>
+        </Link> */}
       </div>
-    </div>
+    </nav>
   );
 }
 

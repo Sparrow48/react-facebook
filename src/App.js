@@ -1,12 +1,37 @@
-import Header from "./components/Header/Header";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
-import "./App.css";
+import Navbar from "./components/Navbar/Navbar";
+import Sidebars from "./components/Sidebar/Sidebars";
+
+import classes from "./App.module.css";
 
 function App() {
   return (
-    <div className='app'>
-      <Header />
-    </div>
+    <Router>
+      <Route path='/'>
+        <div className={classes.app}>
+          <Navbar />
+          <div className={classes.body}>
+            <div className={classes.div3}>
+              <Sidebars />
+            </div>
+            <div className={classes.div1}>
+              <h3>I am main body</h3>
+              <h3>I am main body</h3>
+              <h3>I am main body</h3>
+              <h3>I am main body</h3>
+              <h3>I am main body</h3>
+              <h3>I am main body</h3>
+              <h3>I am main body</h3>
+              <h3>I am main body</h3>
+            </div>
+            <div className={classes.div2}>
+              <h3>I am Right Sidebar</h3>
+            </div>
+          </div>
+        </div>
+      </Route>
+    </Router>
   );
 }
 
