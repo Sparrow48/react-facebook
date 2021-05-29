@@ -1,11 +1,11 @@
 .iconList {
   list-style: none;
-  margin-top: 19%;
+  margin-top: 20%;
 }
 .icons {
   height: 18px;
   width: 18px;
-  padding: 11px;
+  padding: 10px;
   color: white;
   border-radius: 50%;
   background-color: rgb(87, 84, 84);

@@ -1,4 +1,6 @@
 .rightSidebar {
+  display: flex;
+  flex-flow: column;
 }
 
 .rightSidebarTitle {
@@ -6,13 +8,25 @@
   justify-content: space-between;
   color: lightsteelblue;
 }
+.rightSidebarTitle h3 {
+  margin-left: 5px;
+}
 
 .RightSidebarIcons {
   display: flex;
+  flex: 0.6;
+  justify-content: space-between;
 }
 
 .RightSidebarIcons a {
   color: lightsteelblue;
-  padding: 0 15px;
+  height: 20px;
+  width: 20px;
+  padding: 5px;
   margin-top: 25px;
+}
+
+.RightSidebarIcons a:hover {
+  background-color: rgb(87, 84, 84);
+  border-radius: 50%;
 }

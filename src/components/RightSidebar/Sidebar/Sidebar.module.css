@@ -2,10 +2,11 @@
   display: flex;
   text-decoration: none;
   padding-left: 10px;
+  color: lightsteelblue;
 }
 
 .rightSidebarItem:hover {
-  background-color: lightsteelblue;
+  background-color: rgb(87, 84, 84);
   border-radius: 10px;
 }
 
