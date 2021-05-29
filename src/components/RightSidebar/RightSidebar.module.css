@@ -1,0 +1,18 @@
+.rightSidebar {
+}
+
+.rightSidebarTitle {
+  display: flex;
+  justify-content: space-between;
+  color: lightsteelblue;
+}
+
+.RightSidebarIcons {
+  display: flex;
+}
+
+.RightSidebarIcons a {
+  color: lightsteelblue;
+  padding: 0 15px;
+  margin-top: 25px;
+}

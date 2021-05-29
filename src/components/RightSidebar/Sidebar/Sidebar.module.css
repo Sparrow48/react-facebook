@@ -1,0 +1,21 @@
+.rightSidebarItem a {
+  display: flex;
+  text-decoration: none;
+  padding-left: 10px;
+}
+
+.rightSidebarItem:hover {
+  background-color: lightsteelblue;
+  border-radius: 10px;
+}
+
+.rightSidebarItem img {
+  height: 25px;
+  width: 25px;
+  margin-top: 10px;
+  border-radius: 50%;
+}
+
+.rightSidebarItem p {
+  padding-left: 10px;
+}

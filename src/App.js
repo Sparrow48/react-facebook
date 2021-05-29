@@ -1,7 +1,8 @@
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar/Navbar";
-import Sidebars from "./components/Sidebar/Sidebars";
+import LeftSidebars from "./components/LeftSidebar/Sidebars";
+import RightSidebar from "./components/RightSidebar/RightSidebar";
 
 import classes from "./App.module.css";
 
@@ -13,7 +14,7 @@ function App() {
           <Navbar />
           <div className={classes.body}>
             <div className={classes.div3}>
-              <Sidebars />
+              <LeftSidebars />
             </div>
             <div className={classes.div1}>
               <h3>I am main body</h3>
@@ -26,7 +27,7 @@ function App() {
               <h3>I am main body</h3>
             </div>
             <div className={classes.div2}>
-              <h3>I am Right Sidebar</h3>
+              <RightSidebar />
             </div>
           </div>
         </div>
