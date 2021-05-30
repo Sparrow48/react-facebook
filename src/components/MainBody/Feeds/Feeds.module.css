@@ -1,0 +1,20 @@
+.feed {
+  display: flex;
+  flex-flow: column;
+  background-color: rgb(39, 43, 43);
+  width: 75%;
+  border-radius: 10px;
+  margin-left: 30px;
+}
+
+.feed p {
+  padding: 10px;
+  text-align: justify;
+  margin-top: -5%;
+}
+
+.devider {
+  height: 1px;
+  width: 100%;
+  background-color: darkolivegreen;
+}

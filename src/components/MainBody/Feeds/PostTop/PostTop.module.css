@@ -1,0 +1,28 @@
+.postTop {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.postTop img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.postTopDetails {
+  display: flex;
+  flex-flow: column;
+  margin-left: -75%;
+  margin-top: -15px;
+  padding-left: 5px;
+}
+
+.postTopDetailsItem {
+  display: flex;
+}
+
+.postTopDetailsItem p {
+  margin-top: -10px;
+  padding-right: 15px;
+}

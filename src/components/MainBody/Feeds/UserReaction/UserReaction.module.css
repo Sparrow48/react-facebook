@@ -1,0 +1,17 @@
+.reactionSection {
+  display: grid;
+  grid-template-columns: 45% 30% 25%;
+  margin-bottom: -20px;
+  padding: 10px;
+}
+.countLike {
+  display: flex;
+}
+
+.likeIcon {
+  color: white;
+  padding: 5px;
+  margin-top: -5px;
+  background-color: blue;
+  border-radius: 50%;
+}

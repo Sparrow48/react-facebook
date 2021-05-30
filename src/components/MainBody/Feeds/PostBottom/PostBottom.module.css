@@ -1,0 +1,21 @@
+.postBottom {
+  display: grid;
+  grid-template-columns: 28% 28% 28% 16%;
+  padding: 10px;
+}
+.postBottomReaction {
+  display: flex;
+}
+.postBottomReaction p {
+  margin-top: -12px;
+}
+.profileInformation {
+  display: flex;
+  justify-content: right;
+}
+
+.profileInformation img {
+  height: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
