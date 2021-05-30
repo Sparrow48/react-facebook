@@ -8,7 +8,7 @@ import Feeds from "./Feeds/Feeds";
 
 function MainBody() {
   return (
-    <div className={classes.mainBody}>
+    <div className={classes.mainContent}>
       <Story />
       <CreatePost />
       <ActiveUsers />

@@ -43,3 +43,21 @@
   margin-top: -10px;
   padding-right: 15px;
 }
+
+@media (min-width: 1701px) {
+  .postTop {
+    padding: 20px;
+  }
+
+  .postTop img {
+    height: 60px;
+    width: 60px;
+  }
+
+  .postTopDetails {
+    margin-left: -77%;
+  }
+  .postTopDetails p {
+    font-size: 20px;
+  }
+}

@@ -3,7 +3,7 @@
   justify-content: space-between;
   position: fixed;
   align-items: center;
-  background-color: rgb(39, 43, 43);
+  background-color: #242526;
   height: 55px;
   width: 100%;
   z-index: 100;
@@ -58,11 +58,11 @@
 }
 
 .iconMiddle::after {
-  color: blue;
+  color: #2f88fc;
 }
 
 .iconMiddle:active {
-  color: blue;
+  color: #2f88fc;
 }
 
 .iconMiddle:hover {

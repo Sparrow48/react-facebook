@@ -1,10 +1,10 @@
 .createPost {
   display: flex;
   flex-flow: column;
-  background-color: rgb(39, 43, 43);
-  width: 510px;
+  background-color: #242526;
+  width: 95%;
   border-radius: 10px;
-  margin-left: 35px;
+  margin-left: 17px;
 }
 
 .createPostTop {
@@ -14,7 +14,7 @@
 .createPostTop input {
   width: 80%;
   margin-right: 15px;
-  background-color: rgb(87, 84, 84);
+  background-color: #3a3b3c;
   border: none;
   outline: none;
   border-radius: 20px;
@@ -24,12 +24,13 @@
   width: 40px;
   padding: 0px 10px;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .devider {
   height: 1px;
   width: 100%;
-  background-color: darkolivegreen;
+  background-color: gray;
 }
 
 .createPostBottom {

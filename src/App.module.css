@@ -1,5 +1,6 @@
 .app {
-  background-color: rgb(27, 26, 26);
+  background-color: #18191a;
+  max-width: 1480px;
 }
 
 .body {
@@ -7,28 +8,47 @@
 }
 
 .mainBody {
-  width: 100%;
+  width: 40%;
   position: relative;
   align-items: center;
-  left: 28%;
+  margin: auto;
+}
+
+@media (min-width: 1901px) {
+  .mainBody {
+    width: 60%;
+    left: 250px;
+  }
+}
+@media (min-width: 1701px) and (max-width: 1900px) {
+  .mainBody {
+    width: 60%;
+    left: 130px;
+  }
+}
+
+@media (min-width: 1501px) and (max-width: 1700px) {
+  .mainBody {
+    width: 50%;
+    margin: auto;
+  }
 }
 
 @media (min-width: 1124px) and (max-width: 1300px) {
   .mainBody {
-    width: 60%;
-    left: 22%;
+    width: 45%;
+    margin: auto;
   }
 }
 @media (max-width: 1123px) {
   .mainBody {
-    width: 65%;
-    left: 10%;
+    width: 55%;
+    margin: auto;
   }
 }
 @media (max-width: 900px) {
   .mainBody {
     width: 65%;
-    left: 10%;
-    right: 100%;
+    margin: auto;
   }
 }
