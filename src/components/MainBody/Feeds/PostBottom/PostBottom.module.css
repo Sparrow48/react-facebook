@@ -1,21 +1,45 @@
 .postBottom {
   display: grid;
-  grid-template-columns: 28% 28% 28% 16%;
-  padding: 10px;
+  grid-template-columns: 26% 38% 26% 12%;
+  padding: 0px 10px;
 }
 .postBottomReaction {
   display: flex;
+  cursor: pointer;
 }
 .postBottomReaction p {
-  margin-top: -12px;
+  margin-top: 10px;
+}
+
+.postBottomReaction a {
+  margin-top: 20px;
+  margin-left: 40px;
+  color: white;
 }
 .profileInformation {
   display: flex;
   justify-content: right;
+  cursor: pointer;
 }
 
 .profileInformation img {
   height: 20px;
   height: 20px;
   border-radius: 50%;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.profileInformation a {
+  margin-top: 20px;
+}
+
+.profileInformation:hover {
+  background-color: rgb(87, 84, 84);
+  border-radius: 10px;
+}
+
+.postBottomReaction:hover {
+  background-color: rgb(87, 84, 84);
+  border-radius: 10px;
 }

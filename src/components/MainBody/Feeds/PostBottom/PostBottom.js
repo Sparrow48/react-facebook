@@ -4,25 +4,36 @@ import classes from "./PostBottom.module.css";
 import { BiLike, BiComment } from "react-icons/bi";
 import { RiShareForwardLine } from "react-icons/ri";
 import { MdArrowDropDown } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 function FeedBottom(props) {
   return (
     <div className={classes.postBottom}>
       <div className={classes.postBottomReaction}>
-        <BiLike />
+        <Link>
+          <BiLike />
+        </Link>
         <p>Like</p>
       </div>
       <div className={classes.postBottomReaction}>
-        <BiComment />
+        <Link>
+          <BiComment />
+        </Link>
+
         <p>Comment</p>
       </div>
       <div className={classes.postBottomReaction}>
-        <RiShareForwardLine />
+        <Link>
+          <RiShareForwardLine />
+        </Link>
+
         <p>Share</p>
       </div>
       <div className={classes.profileInformation}>
         <img src={props.img} alt='Profile_Image' />
-        <MdArrowDropDown />
+        <Link>
+          <MdArrowDropDown />
+        </Link>
       </div>
     </div>
   );

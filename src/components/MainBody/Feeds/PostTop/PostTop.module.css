@@ -8,6 +8,7 @@
   height: 40px;
   width: 40px;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .postTopDetails {
@@ -15,11 +16,27 @@
   flex-flow: column;
   margin-left: -75%;
   margin-top: -15px;
-  padding-left: 5px;
+  padding-left: 25px;
+  cursor: pointer;
+}
+.postTopDetails p {
+  margin-top: 10px;
+}
+.postTopIcon {
+  height: 25px;
+  width: 25px;
+  padding: 10px;
+  color: lightslategray;
+  cursor: pointer;
+}
+.postTopIcon:hover {
+  background-color: grey;
+  border-radius: 50%;
 }
 
 .postTopDetailsItem {
   display: flex;
+  margin-top: -10px;
 }
 
 .postTopDetailsItem p {

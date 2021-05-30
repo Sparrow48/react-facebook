@@ -23,6 +23,16 @@ function Sidebars() {
       <LeftSidebar link='/marketPlace' img={MarketPlace} title='MarketPlace' />
       <LeftSidebar link='/c19info' img={Covid} title='Covid Information' />
       <LeftSidebar link='/watch' img={Watch} title='Watch' />
+      <LeftSidebar link='/messenger' img={Messenger} title='Messenger' />
+      <LeftSidebar link='/groups' img={Friends} title='Groups' />
+      <LeftSidebar link='/marketPlace' img={MarketPlace} title='MarketPlace' />
+      <LeftSidebar link='/c19info' img={Covid} title='Covid Information' />
+      <LeftSidebar link='/watch' img={Watch} title='Watch' />
+      <LeftSidebar link='/messenger' img={Messenger} title='Messenger' />
+      <LeftSidebar link='/groups' img={Friends} title='Groups' />
+      <LeftSidebar link='/marketPlace' img={MarketPlace} title='MarketPlace' />
+      <LeftSidebar link='/c19info' img={Covid} title='Covid Information' />
+      <LeftSidebar link='/watch' img={Watch} title='Watch' />
     </div>
   );
 }

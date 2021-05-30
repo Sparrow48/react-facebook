@@ -5,6 +5,7 @@
   width: 75%;
   border-radius: 10px;
   margin-left: 30px;
+  color: #a2a3a8;
 }
 
 .feed p {
@@ -16,5 +17,5 @@
 .devider {
   height: 1px;
   width: 100%;
-  background-color: darkolivegreen;
+  background-color: gray;
 }

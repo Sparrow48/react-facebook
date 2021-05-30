@@ -3,6 +3,7 @@ import classes from "./PostTop.module.css";
 
 import { BsThreeDots } from "react-icons/bs";
 import { BiWorld } from "react-icons/bi";
+import { Link } from "react-router-dom";
 
 function PostTop(props) {
   return (
@@ -15,7 +16,9 @@ function PostTop(props) {
           <BiWorld />
         </div>
       </div>
-      <BsThreeDots />
+      <Link>
+        <BsThreeDots className={classes.postTopIcon} />
+      </Link>
     </div>
   );
 }
