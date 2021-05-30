@@ -6,9 +6,29 @@
   padding-top: 55px;
 }
 
-.div1 {
-  width: 50%;
+.mainBody {
+  width: 100%;
   position: relative;
   align-items: center;
-  left: 25%;
+  left: 28%;
+}
+
+@media (min-width: 1124px) and (max-width: 1300px) {
+  .mainBody {
+    width: 60%;
+    left: 22%;
+  }
+}
+@media (max-width: 1123px) {
+  .mainBody {
+    width: 65%;
+    left: 10%;
+  }
+}
+@media (max-width: 900px) {
+  .mainBody {
+    width: 65%;
+    left: 10%;
+    right: 100%;
+  }
 }

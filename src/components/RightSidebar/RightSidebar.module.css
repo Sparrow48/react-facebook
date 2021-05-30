@@ -2,10 +2,10 @@
   display: flex;
   position: fixed;
   flex-flow: column;
-  height: 100%;
+  height: 100vh;
   overflow-y: scroll;
-  width: 25%;
-  left: 75%;
+  width: 20%;
+  left: 80%;
   top: 9%;
 }
 
@@ -54,4 +54,19 @@
 
 .rightSidebar::-webkit-scrollbar-thumb:hover {
   background: rgb(87, 84, 84);
+}
+
+/*----------Responsive-----------*/
+
+@media (min-width: 1124px) and (max-width: 1300px) {
+  .rightSidebar {
+    width: 20%;
+    left: 80%;
+    top: 9%;
+  }
+}
+@media (max-width: 900px) {
+  .rightSidebar {
+    display: none;
+  }
 }

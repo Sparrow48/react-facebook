@@ -2,9 +2,9 @@
   display: flex;
   flex-flow: column;
   background-color: rgb(39, 43, 43);
-  width: 75%;
+  width: 510px;
   border-radius: 10px;
-  margin-left: 30px;
+  margin-left: 35px;
 }
 
 .createPostTop {

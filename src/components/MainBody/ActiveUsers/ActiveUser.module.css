@@ -2,9 +2,9 @@
   display: grid;
   grid-template-columns: 35% 65%;
   background-color: rgb(39, 43, 43);
-  width: 75%;
+  width: 510px;
   border-radius: 10px;
-  margin-left: 30px;
+  margin-left: 35px;
   padding: 10px 0px;
   overflow-x: scroll;
 }

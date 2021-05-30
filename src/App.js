@@ -14,7 +14,7 @@ function App() {
         <div className={classes.app}>
           <Navbar />
           <div className={classes.body}>
-            <div className={classes.div1}>
+            <div className={classes.mainBody}>
               <Main />
             </div>
             <LeftSidebars />

@@ -103,3 +103,14 @@
 .profileDetails:hover {
   background-color: rgb(87, 84, 84);
 }
+
+@media (max-width: 1123px) {
+  .profileDetails {
+    display: none;
+  }
+}
+@media (max-width: 900px) {
+  .searchOption {
+    display: none;
+  }
+}
