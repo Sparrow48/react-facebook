@@ -1,0 +1,27 @@
+.storyItem {
+  height: 175px;
+}
+
+.story {
+  height: 170px;
+  width: 110px;
+  border-radius: 10px;
+  opacity: 0.6;
+}
+.profileInformation {
+  display: flex;
+  flex-flow: column;
+  gap: 75px;
+  color: white;
+  justify-content: space-between;
+  position: relative;
+  top: -95%;
+  left: 10%;
+}
+
+.profileInformation img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: solid 4px blue;
+}
