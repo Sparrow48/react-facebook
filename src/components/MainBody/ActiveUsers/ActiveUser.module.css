@@ -1,0 +1,62 @@
+.activeUsers {
+  display: grid;
+  grid-template-columns: 35% 65%;
+  background-color: rgb(39, 43, 43);
+  width: 75%;
+  border-radius: 10px;
+  margin-left: 30px;
+  padding: 10px 0px;
+  overflow-x: scroll;
+}
+.createRoom {
+  display: flex;
+  cursor: pointer;
+  text-decoration: none;
+  color: gray;
+  cursor: pointer;
+  margin: 0px 10px;
+  padding: 0px 10px;
+  border-radius: 15px;
+  border: 1px solid rgb(70, 153, 252);
+}
+.createRoom p {
+  padding: 0px 5px;
+  color: rgb(70, 153, 252);
+}
+
+.createRoomIcon {
+  height: 25px;
+  width: 25px;
+  margin-top: 12px;
+  color: palevioletred;
+}
+
+.createRoom:hover {
+  background-color: rgb(87, 84, 84);
+}
+
+.activeUserList {
+  display: flex;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.activeUser img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  padding: 0px 10px;
+}
+
+.activeUsers::-webkit-scrollbar {
+  width: 10px;
+}
+
+.activeUsers::-webkit-scrollbar-track {
+  background: rgb(27, 26, 26);
+}
+
+.activeUsers::-webkit-scrollbar-thumb {
+  background: rgb(27, 26, 26);
+  border-radius: 5px;
+}
