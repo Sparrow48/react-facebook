@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { ReactComponent as Home } from "../../assets/home.svg";
 import {
   FaSearch,
   FaHome,
