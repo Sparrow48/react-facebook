@@ -1,9 +1,12 @@
 .navbar {
   display: flex;
   justify-content: space-between;
+  position: fixed;
   align-items: center;
   background-color: rgb(39, 43, 43);
   height: 55px;
+  width: 100%;
+  z-index: 100;
 }
 
 /*-----------------------Navbar left part------------*/

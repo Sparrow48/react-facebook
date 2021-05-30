@@ -27,6 +27,43 @@ function RightSidebar() {
       </div>
       <Sidebar img={ProfilePicture} title='Nasib Sarkar' />
       <Sidebar img={ProfilePicture} title='Nayeem M. Muzahid' />
+
+      {/*---------------------------------------------------*/}
+      <Sidebar img={ProfilePicture} title='Nasib Sarkar' />
+      <Sidebar img={ProfilePicture} title='Nayeem M. Muzahid' />
+      <Sidebar img={ProfilePicture} title='Nasib Sarkar' />
+      <Sidebar img={ProfilePicture} title='Nayeem M. Muzahid' />
+      <Sidebar img={ProfilePicture} title='Nasib Sarkar' />
+      <Sidebar img={ProfilePicture} title='Nayeem M. Muzahid' />
+      <Sidebar img={ProfilePicture} title='Nasib Sarkar' />
+      <Sidebar img={ProfilePicture} title='Nayeem M. Muzahid' />
+      <Sidebar img={ProfilePicture} title='Nasib Sarkar' />
+      <Sidebar img={ProfilePicture} title='Nayeem M. Muzahid' />
+      <Sidebar img={ProfilePicture} title='Nasib Sarkar' />
+      <Sidebar img={ProfilePicture} title='Nayeem M. Muzahid' />
+      <Sidebar img={ProfilePicture} title='Nasib Sarkar' />
+      <Sidebar img={ProfilePicture} title='Nayeem M. Muzahid' />
+      <Sidebar img={ProfilePicture} title='Nasib Sarkar' />
+      <Sidebar img={ProfilePicture} title='Nayeem M. Muzahid' />
+      <Sidebar img={ProfilePicture} title='Nasib Sarkar' />
+      <Sidebar img={ProfilePicture} title='Nayeem M. Muzahid' />
+      <Sidebar img={ProfilePicture} title='Nasib Sarkar' />
+      <Sidebar img={ProfilePicture} title='Nayeem M. Muzahid' />
+      <Sidebar img={ProfilePicture} title='Nayeem M. Muzahid' />
+      <Sidebar img={ProfilePicture} title='Nasib Sarkar' />
+      <Sidebar img={ProfilePicture} title='Nayeem M. Muzahid' />
+      <Sidebar img={ProfilePicture} title='Nasib Sarkar' />
+      <Sidebar img={ProfilePicture} title='Nayeem M. Muzahid' />
+      <Sidebar img={ProfilePicture} title='Nasib Sarkar' />
+      <Sidebar img={ProfilePicture} title='Nayeem M. Muzahid' />
+      <Sidebar img={ProfilePicture} title='Nasib Sarkar' />
+      <Sidebar img={ProfilePicture} title='Nayeem M. Muzahid' />
+      <Sidebar img={ProfilePicture} title='Nasib Sarkar' />
+      <Sidebar img={ProfilePicture} title='Nayeem M. Muzahid' />
+      <Sidebar img={ProfilePicture} title='Nasib Sarkar' />
+      <Sidebar img={ProfilePicture} title='Nayeem M. Muzahid' />
+      <Sidebar img={ProfilePicture} title='Nasib Sarkar' />
+      <Sidebar img={ProfilePicture} title='Nayeem M. Muzahid' />
     </div>
   );
 }

@@ -1,6 +1,12 @@
 .rightSidebar {
   display: flex;
+  position: fixed;
   flex-flow: column;
+  height: 100%;
+  overflow-y: scroll;
+  width: 25%;
+  left: 75%;
+  top: 9%;
 }
 
 .rightSidebarTitle {
@@ -29,4 +35,26 @@
 .RightSidebarIcons a:hover {
   background-color: rgb(87, 84, 84);
   border-radius: 50%;
+  overflow-y: scroll;
+}
+
+/* width */
+.rightSidebar::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.rightSidebar::-webkit-scrollbar-track {
+  background: rgb(27, 26, 26);
+}
+
+/* Handle */
+.rightSidebar::-webkit-scrollbar-thumb {
+  background: rgb(87, 84, 84);
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+.rightSidebar::-webkit-scrollbar-thumb:hover {
+  background: rgb(87, 84, 84);
 }

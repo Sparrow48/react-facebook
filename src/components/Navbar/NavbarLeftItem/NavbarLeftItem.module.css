@@ -3,8 +3,9 @@
   margin-top: 20%;
 }
 .icons {
-  height: 18px;
-  width: 18px;
+  align-items: center;
+  height: 17px;
+  width: 17px;
   padding: 10px;
   color: white;
   border-radius: 50%;

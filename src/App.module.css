@@ -3,7 +3,12 @@
 }
 
 .body {
-  display: grid;
-  grid-template-columns: 20% 50% 20%;
-  column-gap: 5%;
+  padding-top: 55px;
+}
+
+.div1 {
+  width: 50%;
+  position: relative;
+  align-items: center;
+  left: 25%;
 }
