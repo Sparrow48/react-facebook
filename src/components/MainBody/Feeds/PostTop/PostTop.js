@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 function PostTop(props) {
   return (
     <div className={classes.postTop}>
-      <Link to='/profile'>
+      <Link to='/profileImage'>
         <img src={props.img} alt='Profile_Image' />
       </Link>
 

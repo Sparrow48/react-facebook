@@ -46,12 +46,9 @@
 /*-----------------------Navbar middle part------------*/
 
 .middlePart {
-  display: grid;
-  grid-template-columns: 19% 19% 19% 19% 19%;
-  column-gap: 1%;
-  /* display: flex;
+  display: flex;
   flex: 0.75;
-  justify-content: space-between; */
+  justify-content: space-between;
 }
 
 .iconMiddle {
@@ -111,12 +108,19 @@
 }
 
 @media (max-width: 1123px) {
+  .navbar {
+    grid-template-columns: 10% 55% 25%;
+  }
+  .searchOption input {
+    display: none;
+  }
   .profileDetails {
     display: none;
   }
 }
-@media (max-width: 1000px) {
-  .searchOption {
-    display: none;
+
+@media (min-width: 1850px) {
+  .navbar {
+    grid-template-columns: 15% 50% 25%;
   }
 }

@@ -2,47 +2,48 @@ import React from "react";
 import classes from "./ActiveUser.module.css";
 import { BiVideoPlus } from "react-icons/bi";
 import ProfilePic from "../../../assets/nasib2.png";
+import { Link } from "react-router-dom";
 function CreateRoom() {
   return (
     <div className={classes.activeUsers}>
-      <div className={classes.createRoom}>
+      <Link className={classes.createRoom}>
         <BiVideoPlus className={classes.createRoomIcon} />
         <p>Create Room</p>
-      </div>
+      </Link>
       <div className={classes.activeUserList}>
-        <div className={classes.activeUser}>
+        <Link className={classes.activeUser}>
           <img src={ProfilePic} alt='Profile_Image'></img>
-        </div>
-        <div className={classes.activeUser}>
+        </Link>
+        <Link className={classes.activeUser}>
           <img src={ProfilePic} alt='Profile_Image'></img>
-        </div>
-        <div className={classes.activeUser}>
+        </Link>
+        <Link className={classes.activeUser}>
           <img src={ProfilePic} alt='Profile_Image'></img>
-        </div>
-        <div className={classes.activeUser}>
+        </Link>
+        <Link className={classes.activeUser}>
           <img src={ProfilePic} alt='Profile_Image'></img>
-        </div>
-        <div className={classes.activeUser}>
+        </Link>
+        <Link className={classes.activeUser}>
           <img src={ProfilePic} alt='Profile_Image'></img>
-        </div>
-        <div className={classes.activeUser}>
+        </Link>
+        <Link className={classes.activeUser}>
           <img src={ProfilePic} alt='Profile_Image'></img>
-        </div>
-        <div className={classes.activeUser}>
+        </Link>
+        <Link className={classes.activeUser}>
           <img src={ProfilePic} alt='Profile_Image'></img>
-        </div>
-        <div className={classes.activeUser}>
+        </Link>
+        <Link className={classes.activeUser}>
           <img src={ProfilePic} alt='Profile_Image'></img>
-        </div>
-        <div className={classes.activeUser}>
+        </Link>
+        <Link className={classes.activeUser}>
           <img src={ProfilePic} alt='Profile_Image'></img>
-        </div>
-        <div className={classes.activeUser}>
+        </Link>
+        <Link className={classes.activeUser}>
           <img src={ProfilePic} alt='Profile_Image'></img>
-        </div>
-        <div className={classes.activeUser}>
+        </Link>
+        <Link className={classes.activeUser}>
           <img src={ProfilePic} alt='Profile_Image'></img>
-        </div>
+        </Link>
       </div>
     </div>
   );

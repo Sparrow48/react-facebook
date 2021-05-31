@@ -8,7 +8,6 @@
   height: 40px;
   width: 40px;
   border-radius: 50%;
-  cursor: pointer;
 }
 
 .postTopDetails {
@@ -16,7 +15,6 @@
   flex-flow: column;
   margin-left: -75%;
   margin-top: -15px;
-  cursor: pointer;
 }
 .postTopDetails a {
   text-decoration: none;
