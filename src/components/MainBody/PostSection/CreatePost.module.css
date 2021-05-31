@@ -75,6 +75,23 @@
   color: yellow;
 }
 
+@media (max-width: 699px) {
+  .createPost {
+    background-color: #18191a;
+    width: 100%;
+    margin-left: 0px;
+    border-radius: 0;
+  }
+  .forDesktop {
+    display: none;
+  }
+}
+@media (min-width: 700px) {
+  .forMobile {
+    display: none;
+  }
+}
+
 @media (min-height: 700px) {
   .createPost {
     width: 100%;

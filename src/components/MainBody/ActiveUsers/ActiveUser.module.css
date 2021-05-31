@@ -49,16 +49,26 @@
 }
 
 .activeUsers::-webkit-scrollbar {
-  width: 10px;
+  width: 0;
+  height: 0;
 }
 
-.activeUsers::-webkit-scrollbar-track {
-  background: rgb(27, 26, 26);
-}
-
-.activeUsers::-webkit-scrollbar-thumb {
-  background: rgb(27, 26, 26);
-  border-radius: 5px;
+@media (max-width: 699px) {
+  .activeUsers {
+    background-color: #18191a;
+    width: 100%;
+    margin-left: 0px;
+    padding: 0px 0px;
+    border-radius: 0;
+  }
+  .activeUser img {
+    margin-top: 6px;
+  }
+  .createRoom p {
+    font-size: 14px;
+    padding: 0px 10px;
+    color: rgb(70, 153, 252);
+  }
 }
 
 @media (min-width: 1701px) and (min-height: 700px) {

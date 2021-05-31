@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import LeftSidebars from "./components/LeftSidebar/Sidebars";
 import RightSidebar from "./components/RightSidebar/RightSidebar";
 import Main from "./components/MainBody/MainBody";
+import MobileNav from "./components/Navbar/NavForMobile/NavForMobile";
 
 import classes from "./App.module.css";
 
@@ -12,7 +13,13 @@ function App() {
     <Router>
       <Route path='/'>
         <div className={classes.app}>
-          <Navbar />
+          <div className={classes.mobileNavbar}>
+            <MobileNav />
+          </div>
+          <div className={classes.navbar}>
+            <Navbar />
+          </div>
+
           <div className={classes.body}>
             <div className={classes.mainBody}>
               <Main />

@@ -3,3 +3,27 @@
   gap: 7px;
   text-decoration: none;
 }
+
+@media (max-width: 699px) {
+  .storySection {
+    overflow-x: scroll;
+    padding-top: 10px;
+  }
+  .storySection::-webkit-scrollbar {
+    width: 0px;
+    height: 0;
+  }
+
+  .storySection::-webkit-scrollbar-track {
+    background: #18191a;
+  }
+
+  .storySection::-webkit-scrollbar-thumb {
+    background: #18191a;
+    border-radius: 5px;
+  }
+
+  .storySection::-webkit-scrollbar-thumb:hover {
+    background: #18191a;
+  }
+}

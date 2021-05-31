@@ -1,4 +1,6 @@
 import React from "react";
+
+import BottomForMobile from "./ForMobileView/BottomForMobile";
 import classes from "./CreatePost.module.css";
 
 import { RiLiveLine } from "react-icons/ri";
@@ -14,21 +16,27 @@ function CreatePost() {
         <input type='text' placeholder='Whats on your mind, Nasib?' />
       </div>
       <div className={classes.devider}></div>
-      <div className={classes.createPostBottom}>
-        <div>
-          <Link className={classes.createPostBottomItem}>
-            <RiLiveLine className={classes.createPostBottomItemIconLive} />
-            <p>Live Video</p>
-          </Link>
+      <div className={classes.forDesktop}>
+        <div className={classes.createPostBottom}>
+          <div>
+            <Link className={classes.createPostBottomItem}>
+              <RiLiveLine className={classes.createPostBottomItemIconLive} />
+              <p>Live Video</p>
+            </Link>
+          </div>
+          <div className={classes.createPostBottomItem}>
+            <IoMdPhotos className={classes.createPostBottomItemIconPhoto} />
+            <p>photo/Video</p>
+          </div>
+          <div className={classes.createPostBottomItem}>
+            <IoMdHappy className={classes.createPostBottomItemIconHappy} />
+            <p>Feeling/Activity</p>
+          </div>
         </div>
-        <div className={classes.createPostBottomItem}>
-          <IoMdPhotos className={classes.createPostBottomItemIconPhoto} />
-          <p>photo/Video</p>
-        </div>
-        <div className={classes.createPostBottomItem}>
-          <IoMdHappy className={classes.createPostBottomItemIconHappy} />
-          <p>Feeling/Activity</p>
-        </div>
+      </div>
+
+      <div className={classes.forMobile}>
+        <BottomForMobile />
       </div>
     </div>
   );

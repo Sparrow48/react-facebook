@@ -124,3 +124,22 @@
     grid-template-columns: 15% 50% 25%;
   }
 }
+
+@media (max-width: 1123px) {
+  .navbar {
+    display: block;
+    width: 100%;
+  }
+  .firstPart {
+    display: none;
+  }
+  .middlePart {
+    display: flex;
+    flex: 0.45;
+    justify-content: left;
+  }
+
+  .lastPart {
+    display: none;
+  }
+}

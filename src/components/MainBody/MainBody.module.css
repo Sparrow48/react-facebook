@@ -13,3 +13,32 @@
     margin: auto;
   }
 }
+
+@media (min-width: 700px) {
+  .storyForMobile {
+    display: none;
+  }
+}
+
+@media (max-width: 699px) {
+  .mainContent {
+    max-width: 100%;
+    padding-top: 0;
+  }
+  .storyForMobile button {
+    color: #2f88fc;
+    background-color: #222b29;
+    padding: 5px 35%;
+    margin-left: 2.5%;
+    border: none;
+    outline: none;
+  }
+  .storyForMobile {
+    background-color: #18191a;
+    padding-bottom: 10px;
+  }
+
+  .storyForDesktop {
+    display: none;
+  }
+}

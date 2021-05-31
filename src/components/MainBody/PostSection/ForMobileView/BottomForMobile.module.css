@@ -1,0 +1,41 @@
+.createPostBottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.createPostBottomItem {
+  display: flex;
+  text-decoration: none;
+  color: gray;
+  cursor: pointer;
+  padding: 0px 10px;
+  border-radius: 15px;
+}
+
+.createPostBottomItem:hover {
+  background-color: rgb(87, 84, 84);
+}
+
+.createPostBottomItem p {
+  padding: 0px 10px;
+}
+
+.createPostBottomItemIconLive {
+  height: 25px;
+  width: 25px;
+  margin-top: 12px;
+  color: red;
+}
+.createPostBottomItemIconPhoto {
+  height: 25px;
+  width: 25px;
+  margin-top: 12px;
+  color: lightseagreen;
+}
+.createPostBottomItemIconHappy {
+  height: 25px;
+  width: 25px;
+  margin-top: 12px;
+  color: yellow;
+}

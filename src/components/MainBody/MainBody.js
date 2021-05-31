@@ -9,9 +9,15 @@ import Feeds from "./Feeds/Feeds";
 function MainBody() {
   return (
     <div className={classes.mainContent}>
-      <Story />
+      <div className={classes.storyForDesktop}>
+        <Story />
+      </div>
       <CreatePost />
       <ActiveUsers />
+      <div className={classes.storyForMobile}>
+        <Story />
+        <button>Show All Stories</button>
+      </div>
       <Feeds />
       <Feeds />
       <Feeds />
