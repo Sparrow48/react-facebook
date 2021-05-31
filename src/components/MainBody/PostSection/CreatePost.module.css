@@ -2,9 +2,9 @@
   display: flex;
   flex-flow: column;
   background-color: #242526;
-  width: 95%;
+  width: 85%;
   border-radius: 10px;
-  margin-left: 17px;
+  margin-left: 40px;
 }
 
 .createPostTop {
@@ -73,4 +73,11 @@
   width: 25px;
   margin-top: 12px;
   color: yellow;
+}
+
+@media (min-height: 700px) {
+  .createPost {
+    width: 100%;
+    margin-left: 0px;
+  }
 }

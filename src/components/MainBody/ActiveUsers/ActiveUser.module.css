@@ -2,9 +2,9 @@
   display: grid;
   grid-template-columns: 35% 65%;
   background-color: #242526;
-  width: 95%;
+  width: 85%;
   border-radius: 10px;
-  margin-left: 17px;
+  margin-left: 40px;
   padding: 10px 0px;
   overflow-x: scroll;
 }
@@ -61,11 +61,19 @@
   border-radius: 5px;
 }
 
-@media (min-width: 1701px) {
+@media (min-width: 1701px) and (min-height: 700px) {
   .activeUsers {
     width: 95%;
   }
   .createRoom p {
     font-size: 20px;
+  }
+}
+
+@media (min-height: 700px) {
+  .activeUsers {
+    width: 100%;
+    border-radius: 10px;
+    margin-left: 0px;
   }
 }

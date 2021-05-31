@@ -3,4 +3,13 @@
   flex-flow: column;
   padding-top: 15px;
   row-gap: 10px;
+  max-width: 80%;
+  margin: auto;
+}
+
+@media (min-width: 1360) {
+  .mainContent {
+    max-width: 80%;
+    margin: auto;
+  }
 }

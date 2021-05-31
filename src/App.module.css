@@ -1,6 +1,7 @@
 .app {
   background-color: #18191a;
   max-width: 1480px;
+  /* max-width: auto; */
 }
 
 .body {
@@ -8,47 +9,149 @@
 }
 
 .mainBody {
-  width: 40%;
+  width: 50%;
   position: relative;
   align-items: center;
   margin: auto;
 }
 
-@media (min-width: 1901px) {
+/*--------------------------RESPONSIVE-----------------------*/
+
+@media (max-width: 850px) {
   .mainBody {
-    width: 60%;
-    left: 250px;
-  }
-}
-@media (min-width: 1701px) and (max-width: 1900px) {
-  .mainBody {
-    width: 60%;
-    left: 130px;
+    width: 100%;
   }
 }
 
-@media (min-width: 1501px) and (max-width: 1700px) {
+@media (max-width: 1000px) {
   .mainBody {
-    width: 50%;
-    margin: auto;
+    width: 90%;
   }
 }
 
-@media (min-width: 1124px) and (max-width: 1300px) {
+@media (min-width: 1001px) {
   .mainBody {
-    width: 45%;
-    margin: auto;
+    width: 80%;
+    margin: 0%;
   }
 }
-@media (max-width: 1123px) {
-  .mainBody {
-    width: 55%;
-    margin: auto;
-  }
-}
-@media (max-width: 900px) {
+
+@media (min-width: 1124px) {
   .mainBody {
     width: 65%;
     margin: auto;
   }
 }
+
+@media (min-width: 1380px) {
+  .mainBody {
+    width: 55%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1601px) {
+  .mainBody {
+    width: 65%;
+    left: 6%;
+  }
+}
+
+@media (min-width: 1801px) {
+  .mainBody {
+    width: 70%;
+    left: 10%;
+  }
+}
+
+@media (min-width: 1901px) {
+  .mainBody {
+    width: 75%;
+    left: 15%;
+  }
+}
+
+@media (min-width: 2051px) {
+  .mainBody {
+    width: 75%;
+    left: 20%;
+  }
+}
+
+/*.app {
+  background-color: #18191a;
+  max-width: 1480px;
+}
+
+.body {
+  padding-top: 55px;
+}
+
+.mainBody {
+  width: 50%;
+  position: relative;
+  align-items: center;
+  margin: auto;
+}
+
+@media (max-width: 1000px) {
+  .mainBody {
+    width: 65%;
+  }
+}
+
+@media (min-width: 1001px) and (max-width: 1250px) {
+  .mainBody {
+    width: 60%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1251px) and (max-width: 1379px) {
+  .mainBody {
+    width: 48%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1380px) and (max-width: 1500px) {
+  .mainBody {
+    width: 40%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1501px) and (max-width: 1600px) {
+  .mainBody {
+    width: 52%;
+  }
+}
+@media (min-width: 1601px) and (max-width: 1800px) {
+  .mainBody {
+    width: 50%;
+    left: 6%;
+  }
+}
+
+@media (min-width: 1801px) and (max-width: 1900px) {
+  .mainBody {
+    width: 60%;
+    left: 10%;
+  }
+}
+
+@media (min-width: 1901px) and (max-width: 2050px) {
+  .mainBody {
+    width: 65%;
+    left: 13%;
+  }
+}
+
+@media (min-width: 2051px) {
+  .mainBody {
+    width: 75%;
+    left: 20%;
+  }
+}
+
+*/

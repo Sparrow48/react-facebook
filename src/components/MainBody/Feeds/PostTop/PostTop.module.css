@@ -16,11 +16,13 @@
   flex-flow: column;
   margin-left: -75%;
   margin-top: -15px;
-  padding-left: 25px;
   cursor: pointer;
 }
+.postTopDetails a {
+  text-decoration: none;
+}
 .postTopDetails p {
-  margin-top: 10px;
+  color: lightslategray;
 }
 .postTopIcon {
   height: 25px;
@@ -40,11 +42,11 @@
 }
 
 .postTopDetailsItem p {
-  margin-top: -10px;
+  margin-top: -18px;
   padding-right: 15px;
 }
 
-@media (min-width: 1701px) {
+@media (min-width: 1601px) {
   .postTop {
     padding: 20px;
   }

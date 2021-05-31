@@ -8,9 +8,16 @@ import { Link } from "react-router-dom";
 function PostTop(props) {
   return (
     <div className={classes.postTop}>
-      <img src={props.img} alt='Profile_Image' />
+      <Link to='/profile'>
+        <img src={props.img} alt='Profile_Image' />
+      </Link>
+
       <div className={classes.postTopDetails}>
-        <p>{props.name}</p>
+        <Link to='/profile'>
+          <p className={{ textDecoration: "none", color: "white" }}>
+            {props.name}
+          </p>
+        </Link>
         <div className={classes.postTopDetailsItem}>
           <p>{props.time}</p>
           <BiWorld />

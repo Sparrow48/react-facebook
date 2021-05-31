@@ -6,7 +6,7 @@
   overflow-y: scroll;
   width: 20%;
   left: 80%;
-  top: 9%;
+  top: 75px;
 }
 
 .rightSidebarTitle {
@@ -58,15 +58,16 @@
 
 /*----------Responsive-----------*/
 
-@media (min-width: 1124px) and (max-width: 1300px) {
-  .rightSidebar {
-    width: 20%;
-    left: 80%;
-    top: 9%;
-  }
-}
 @media (max-width: 1000px) {
   .rightSidebar {
     display: none;
+  }
+}
+
+@media (min-width: 1001px) and (max-width: 1123px) {
+  .rightSidebar {
+    width: 25%;
+    left: 75%;
+    top: 9%;
   }
 }
