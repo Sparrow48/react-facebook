@@ -19,7 +19,7 @@ function CreatePost() {
       <div className={classes.forDesktop}>
         <div className={classes.createPostBottom}>
           <div>
-            <Link className={classes.createPostBottomItem}>
+            <Link to='/#' className={classes.createPostBottomItem}>
               <RiLiveLine className={classes.createPostBottomItemIconLive} />
               <p>Live Video</p>
             </Link>

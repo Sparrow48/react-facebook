@@ -51,6 +51,7 @@
     display: grid;
     grid-template-columns: 28% 44% 28%;
     padding: 0px 10px;
+    font-size: 11px;
   }
   .postBottomReaction a {
     margin-left: 25px;

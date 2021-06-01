@@ -4,10 +4,29 @@
   text-decoration: none;
 }
 
+.storySection a {
+  text-decoration: none;
+}
+
+@media (min-width: 700px) {
+  .forMobile {
+    display: none;
+  }
+}
 @media (max-width: 699px) {
   .storySection {
     overflow-x: scroll;
     padding-top: 10px;
+  }
+  .forMobile button {
+    font-size: 10px;
+    color: #2f88fc;
+    background-color: #222b29;
+    padding: 5px 35%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: none;
+    outline: none;
   }
   .storySection::-webkit-scrollbar {
     width: 0px;
@@ -25,5 +44,12 @@
 
   .storySection::-webkit-scrollbar-thumb:hover {
     background: #18191a;
+  }
+}
+
+@media (max-width: 370px) {
+  .forMobile button {
+    margin-left: 3.5%;
+    margin-right: 3.5%;
   }
 }

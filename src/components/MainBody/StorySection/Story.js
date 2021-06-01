@@ -11,15 +11,44 @@ import Story3 from "../../../assets/story3.png";
 import { Link } from "react-router-dom";
 
 function Story() {
+  // const [isSticky, setSticky] = useState(false);
+  // useEffect(() => {
+  //   window.addEventListener("scroll", () => {
+  //     if (window.scrollX > 25) {
+  //       setSticky(true);
+  //     } else {
+  //       setSticky(false);
+  //     }
+  //   });
+  // }, []);
+
   return (
     <div>
-      <Link className={classes.storySection}>
-        <StoryItem story={Story1} name='Nasib Sarkar' img={ProilePic1} />
-        <StoryItem story={Story2} name='Nasib Sarkar' img={ProilePic1} />
-        <StoryItem story={Story3} name='Nasib Sarkar' img={ProilePic1} />
-        <StoryItem story={Story2} name='Nasib Sarkar' img={ProilePic1} />
-        <StoryItem story={Story3} name='Nasib Sarkar' img={ProilePic1} />
-      </Link>
+      {/* <div className={classes.storySection} onClick={() => window.scroll()}> */}
+      <div className={classes.storySection}>
+        <Link to='/#'>
+          <StoryItem story={Story1} name='Nasib Sarkar' img={ProilePic1} />
+        </Link>
+        <Link to='/#'>
+          <StoryItem story={Story2} name='Nasib Sarkar' img={ProilePic1} />
+        </Link>
+        <Link to='/#'>
+          <StoryItem story={Story3} name='Nasib Sarkar' img={ProilePic1} />
+        </Link>
+        <Link to='/#'>
+          <StoryItem story={Story2} name='Nasib Sarkar' img={ProilePic1} />
+        </Link>
+        <Link to='/#'>
+          <StoryItem story={Story3} name='Nasib Sarkar' img={ProilePic1} />
+        </Link>
+      </div>
+      <div className={classes.forMobile}>
+        <button>Show All Stories</button>
+      </div>
+
+      {/* <div className={classes.forMobile}>
+        {isSticky ? <button>Show All Stories</button> : null}
+      </div> */}
     </div>
   );
 }

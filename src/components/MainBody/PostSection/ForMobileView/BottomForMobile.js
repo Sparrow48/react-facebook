@@ -11,7 +11,7 @@ function BottomForMobile() {
     <div>
       <div className={classes.createPostBottom}>
         <div>
-          <Link className={classes.createPostBottomItem}>
+          <Link to='/#' className={classes.createPostBottomItem}>
             <RiLiveLine className={classes.createPostBottomItemIconLive} />
             <p>Live</p>
           </Link>

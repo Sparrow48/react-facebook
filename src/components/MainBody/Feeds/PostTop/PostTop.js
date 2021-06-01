@@ -23,7 +23,7 @@ function PostTop(props) {
           <BiWorld />
         </div>
       </div>
-      <Link>
+      <Link to='/#'>
         <BsThreeDots className={classes.postTopIcon} />
       </Link>
     </div>

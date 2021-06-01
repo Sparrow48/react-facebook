@@ -10,20 +10,20 @@ function FeedBottom(props) {
   return (
     <div className={classes.postBottom}>
       <div className={classes.postBottomReaction}>
-        <Link>
+        <Link to='/#'>
           <BiLike />
         </Link>
         <p>Like</p>
       </div>
       <div className={classes.postBottomReaction}>
-        <Link>
+        <Link to='/#'>
           <BiComment />
         </Link>
 
         <p>Comment</p>
       </div>
       <div className={classes.postBottomReaction}>
-        <Link>
+        <Link to='/#'>
           <RiShareForwardLine />
         </Link>
 
@@ -31,7 +31,7 @@ function FeedBottom(props) {
       </div>
       <div className={classes.profileInformation}>
         <img src={props.img} alt='Profile_Image' />
-        <Link>
+        <Link to='/#'>
           <MdArrowDropDown />
         </Link>
       </div>

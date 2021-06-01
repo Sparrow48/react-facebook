@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import {
   FaSearch,
@@ -15,8 +15,18 @@ import profilePic from "../../../assets/nasib.png";
 import classes from "./NavForMobile.module.css";
 
 function NavForMobile() {
+  const [isSticky, setSticky] = useState(false);
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 35) {
+        setSticky(true);
+      } else {
+        setSticky(false);
+      }
+    });
+  }, []);
   return (
-    <nav className={classes.navbar}>
+    <nav className={classes.navbar} onClick={() => window.scroll()}>
       <div className={classes.navTopPart}>
         <h1>facebook</h1>
         <div className={classes.topIcons}>
@@ -28,7 +38,7 @@ function NavForMobile() {
           </Link>
         </div>
       </div>
-      <div className={classes.navBottomPart}>
+      <div className={isSticky ? classes.fixed : classes.navBottomPart}>
         <Link to='/'>
           <FaHome className={classes.iconBottom} />
         </Link>

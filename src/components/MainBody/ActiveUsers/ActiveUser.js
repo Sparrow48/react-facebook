@@ -6,42 +6,42 @@ import { Link } from "react-router-dom";
 function CreateRoom() {
   return (
     <div className={classes.activeUsers}>
-      <Link className={classes.createRoom}>
+      <Link to='/#' className={classes.createRoom}>
         <BiVideoPlus className={classes.createRoomIcon} />
         <p>Create Room</p>
       </Link>
       <div className={classes.activeUserList}>
-        <Link className={classes.activeUser}>
+        <Link to='/#' className={classes.activeUser}>
           <img src={ProfilePic} alt='Profile_Image'></img>
         </Link>
-        <Link className={classes.activeUser}>
+        <Link to='/#' className={classes.activeUser}>
           <img src={ProfilePic} alt='Profile_Image'></img>
         </Link>
-        <Link className={classes.activeUser}>
+        <Link to='/#' className={classes.activeUser}>
           <img src={ProfilePic} alt='Profile_Image'></img>
         </Link>
-        <Link className={classes.activeUser}>
+        <Link to='/#' className={classes.activeUser}>
           <img src={ProfilePic} alt='Profile_Image'></img>
         </Link>
-        <Link className={classes.activeUser}>
+        <Link to='/#' className={classes.activeUser}>
           <img src={ProfilePic} alt='Profile_Image'></img>
         </Link>
-        <Link className={classes.activeUser}>
+        <Link to='/#' className={classes.activeUser}>
           <img src={ProfilePic} alt='Profile_Image'></img>
         </Link>
-        <Link className={classes.activeUser}>
+        <Link to='/#' className={classes.activeUser}>
           <img src={ProfilePic} alt='Profile_Image'></img>
         </Link>
-        <Link className={classes.activeUser}>
+        <Link to='/#' className={classes.activeUser}>
           <img src={ProfilePic} alt='Profile_Image'></img>
         </Link>
-        <Link className={classes.activeUser}>
+        <Link to='/#' className={classes.activeUser}>
           <img src={ProfilePic} alt='Profile_Image'></img>
         </Link>
-        <Link className={classes.activeUser}>
+        <Link to='/#' className={classes.activeUser}>
           <img src={ProfilePic} alt='Profile_Image'></img>
         </Link>
-        <Link className={classes.activeUser}>
+        <Link to='/#' className={classes.activeUser}>
           <img src={ProfilePic} alt='Profile_Image'></img>
         </Link>
       </div>

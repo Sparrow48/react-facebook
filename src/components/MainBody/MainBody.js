@@ -16,7 +16,6 @@ function MainBody() {
       <ActiveUsers />
       <div className={classes.storyForMobile}>
         <Story />
-        <button>Show All Stories</button>
       </div>
       <Feeds />
       <Feeds />

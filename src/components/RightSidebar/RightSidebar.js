@@ -14,13 +14,13 @@ function RightSidebar() {
       <div className={classes.rightSidebarTitle}>
         <h3>Contacts</h3>
         <div className={classes.RightSidebarIcons}>
-          <Link>
+          <Link to='/#'>
             <BiVideoPlus />
           </Link>
-          <Link>
+          <Link to='/#'>
             <FaSearch />
           </Link>
-          <Link>
+          <Link to='/#'>
             <BsThreeDots />
           </Link>
         </div>
