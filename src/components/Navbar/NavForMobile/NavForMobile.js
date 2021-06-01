@@ -10,7 +10,7 @@ import {
 import { AiOutlineMenu } from "react-icons/ai";
 import { MdNotificationsNone } from "react-icons/md";
 import { GiAbstract092 } from "react-icons/gi";
-import profilePic from "../../../assets/nasib.png";
+// import profilePic from "../../../assets/nasib.png";
 
 import classes from "./NavForMobile.module.css";
 
@@ -56,7 +56,7 @@ function NavForMobile() {
         </Link>
         <Link to='/details' className={classes.imgBottom}>
           <AiOutlineMenu className={classes.iconBottom} />
-          <img src={profilePic} alt='profile' />
+          {/* <img src={profilePic} alt='profile' /> */}
         </Link>
       </div>
     </nav>

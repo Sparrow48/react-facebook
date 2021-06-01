@@ -18,8 +18,6 @@ function MainBody() {
         <Story />
       </div>
       <Feeds />
-      <Feeds />
-      <Feeds />
     </div>
   );
 }

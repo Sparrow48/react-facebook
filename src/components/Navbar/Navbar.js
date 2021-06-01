@@ -64,20 +64,6 @@ function Header() {
         <NavbarLeftItem icon={<FaFacebookMessenger />} />
         <NavbarLeftItem icon={<MdNotificationsNone />} />
         <NavbarLeftItem icon={<MdArrowDropDown />} />
-
-        {/* <Link to='/'>
-          <FaPlus className={classes.iconLast} />
-        </Link>
-        <Link to='/'>
-          <FaFacebookMessenger className={classes.iconLast} />
-        </Link>
-        <Link to='/'>
-          <MdNotificationsNone className={classes.iconLast} />
-        </Link>
-
-        <Link to='/'>
-          <MdArrowDropDown className={classes.iconLast} />
-        </Link> */}
       </div>
     </nav>
   );

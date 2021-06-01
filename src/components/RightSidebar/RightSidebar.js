@@ -6,7 +6,13 @@ import classes from "./RightSidebar.module.css";
 import { FaSearch } from "react-icons/fa";
 import { BsThreeDots } from "react-icons/bs";
 import { BiVideoPlus } from "react-icons/bi";
-import ProfilePicture from "../../assets/nasib.png";
+import ProfilePicture0 from "../../assets/nasib2.png";
+import ProfilePicture1 from "../../assets/hasan.png";
+import ProfilePicture2 from "../../assets/nayeem.png";
+import ProfilePicture3 from "../../assets/rahat.png";
+import ProfilePicture4 from "../../assets/nasib3.png";
+import ProfilePicture5 from "../../assets/hridoy.png";
+import ProfilePicture6 from "../../assets/mim.png";
 
 function RightSidebar() {
   return (
@@ -25,45 +31,37 @@ function RightSidebar() {
           </Link>
         </div>
       </div>
-      <Sidebar img={ProfilePicture} title='Nasib Sarkar' />
-      <Sidebar img={ProfilePicture} title='Nayeem M. Muzahid' />
+      <Sidebar img={ProfilePicture0} title='Hasib Sarkar' />
+      <Sidebar img={ProfilePicture2} title='Nayeem M. Muzahid' />
 
       {/*---------------------------------------------------*/}
-      <Sidebar img={ProfilePicture} title='Nasib Sarkar' />
-      <Sidebar img={ProfilePicture} title='Nayeem M. Muzahid' />
-      <Sidebar img={ProfilePicture} title='Nasib Sarkar' />
-      <Sidebar img={ProfilePicture} title='Nayeem M. Muzahid' />
-      <Sidebar img={ProfilePicture} title='Nasib Sarkar' />
-      <Sidebar img={ProfilePicture} title='Nayeem M. Muzahid' />
-      <Sidebar img={ProfilePicture} title='Nasib Sarkar' />
-      <Sidebar img={ProfilePicture} title='Nayeem M. Muzahid' />
-      <Sidebar img={ProfilePicture} title='Nasib Sarkar' />
-      <Sidebar img={ProfilePicture} title='Nayeem M. Muzahid' />
-      <Sidebar img={ProfilePicture} title='Nasib Sarkar' />
-      <Sidebar img={ProfilePicture} title='Nayeem M. Muzahid' />
-      <Sidebar img={ProfilePicture} title='Nasib Sarkar' />
-      <Sidebar img={ProfilePicture} title='Nayeem M. Muzahid' />
-      <Sidebar img={ProfilePicture} title='Nasib Sarkar' />
-      <Sidebar img={ProfilePicture} title='Nayeem M. Muzahid' />
-      <Sidebar img={ProfilePicture} title='Nasib Sarkar' />
-      <Sidebar img={ProfilePicture} title='Nayeem M. Muzahid' />
-      <Sidebar img={ProfilePicture} title='Nasib Sarkar' />
-      <Sidebar img={ProfilePicture} title='Nayeem M. Muzahid' />
-      <Sidebar img={ProfilePicture} title='Nayeem M. Muzahid' />
-      <Sidebar img={ProfilePicture} title='Nasib Sarkar' />
-      <Sidebar img={ProfilePicture} title='Nayeem M. Muzahid' />
-      <Sidebar img={ProfilePicture} title='Nasib Sarkar' />
-      <Sidebar img={ProfilePicture} title='Nayeem M. Muzahid' />
-      <Sidebar img={ProfilePicture} title='Nasib Sarkar' />
-      <Sidebar img={ProfilePicture} title='Nayeem M. Muzahid' />
-      <Sidebar img={ProfilePicture} title='Nasib Sarkar' />
-      <Sidebar img={ProfilePicture} title='Nayeem M. Muzahid' />
-      <Sidebar img={ProfilePicture} title='Nasib Sarkar' />
-      <Sidebar img={ProfilePicture} title='Nayeem M. Muzahid' />
-      <Sidebar img={ProfilePicture} title='Nasib Sarkar' />
-      <Sidebar img={ProfilePicture} title='Nayeem M. Muzahid' />
-      <Sidebar img={ProfilePicture} title='Nasib Sarkar' />
-      <Sidebar img={ProfilePicture} title='Nayeem M. Muzahid' />
+      <Sidebar img={ProfilePicture1} title='Hasan Mahmud' />
+      <Sidebar img={ProfilePicture3} title='Md. Rahat Hasan' />
+      <Sidebar img={ProfilePicture4} title='Abir Talukdar' />
+      <Sidebar img={ProfilePicture5} title='Md. Rhidoy' />
+      <Sidebar img={ProfilePicture6} title='Mansura Mim' />
+      <Sidebar img={ProfilePicture1} title='Hasan Mahmud' />
+      <Sidebar img={ProfilePicture3} title='Md. Rahat Hasan' />
+      <Sidebar img={ProfilePicture0} title='Hasib Sarkar' />
+      <Sidebar img={ProfilePicture2} title='Nayeem M. Muzahid' />
+      <Sidebar img={ProfilePicture4} title='Abir Talukdar' />
+      <Sidebar img={ProfilePicture5} title='Md. Rhidoy' />
+      <Sidebar img={ProfilePicture6} title='Mansura Mim' />
+      <Sidebar img={ProfilePicture1} title='Hasan Mahmud' />
+      <Sidebar img={ProfilePicture3} title='Md. Rahat Hasan' />
+      <Sidebar img={ProfilePicture0} title='Hasib Sarkar' />
+      <Sidebar img={ProfilePicture5} title='Md. Rhidoy' />
+      <Sidebar img={ProfilePicture6} title='Mansura Mim' />
+      <Sidebar img={ProfilePicture1} title='Hasan Mahmud' />
+      <Sidebar img={ProfilePicture3} title='Md. Rahat Hasan' />
+      <Sidebar img={ProfilePicture4} title='Abir Talukdar' />
+      <Sidebar img={ProfilePicture5} title='Md. Rhidoy' />
+      <Sidebar img={ProfilePicture6} title='Mansura Mim' />
+      <Sidebar img={ProfilePicture1} title='Hasan Mahmud' />
+      <Sidebar img={ProfilePicture3} title='Md. Rahat Hasan' />
+      <Sidebar img={ProfilePicture0} title='Hasib Sarkar' />
+      <Sidebar img={ProfilePicture2} title='Nayeem M. Muzahid' />
+      <Sidebar img={ProfilePicture4} title='Abir Talukdar' />
     </div>
   );
 }

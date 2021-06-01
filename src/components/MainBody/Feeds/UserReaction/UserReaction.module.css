@@ -15,6 +15,17 @@
   background-color: #2f88fc;
   border-radius: 50%;
 }
+@media (min-width: 730px) {
+  .reactionSection p {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 729px) {
+  .reactionSection p {
+    font-size: 11px;
+  }
+}
 
 @media (max-width: 699px) {
   .reactionSection {

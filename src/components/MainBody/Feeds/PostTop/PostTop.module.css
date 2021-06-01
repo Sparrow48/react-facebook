@@ -1,7 +1,8 @@
 .postTop {
-  display: flex;
-  justify-content: space-between;
-  padding: 15px;
+  display: grid;
+  grid-template-columns: 5% 83% 5%;
+  margin-top: 10px;
+  padding: 10px;
 }
 
 .postTop img {
@@ -13,8 +14,7 @@
 .postTopDetails {
   display: flex;
   flex-flow: column;
-  margin-left: -75%;
-  margin-top: -15px;
+  margin-top: 10px;
 }
 .postTopDetails a {
   text-decoration: none;
@@ -36,7 +36,7 @@
 
 .postTopDetailsItem {
   display: flex;
-  margin-top: -10px;
+  margin-top: -20px;
 }
 
 .postTopDetailsItem p {
@@ -48,35 +48,53 @@
   .postTopIcon:hover {
     display: none;
   }
-
+  .postTop {
+    grid-template-columns: 5% 83% 5%;
+  }
   .postTopDetails {
-    margin-left: -75%;
+    margin-top: 9px;
+  }
+}
+@media (max-width: 580px) {
+  .postTopIcon:hover {
+    display: none;
+  }
+  .postTop {
+    grid-template-columns: 7% 83% 5%;
+  }
+  .postTopDetails {
+    margin-top: 7px;
   }
 }
 @media (max-width: 450px) {
+  .postTop {
+    grid-template-columns: 9% 83% 5%;
+  }
   .postTopDetails {
-    margin-left: -65%;
+    margin-top: 0px;
   }
 }
 @media (max-width: 375px) {
+  .postTop {
+    grid-template-columns: 12% 83% 5%;
+  }
   .postTopDetails {
-    margin-left: -60%;
+    margin-top: 0px;
   }
 }
 
 @media (min-width: 1601px) {
   .postTop {
-    padding: 20px;
+    grid-template-columns: 8% 83% 5%;
   }
-
   .postTop img {
     height: 60px;
     width: 60px;
   }
-
   .postTopDetails {
-    margin-left: -77%;
+    margin-top: 20px;
   }
+
   .postTopDetails p {
     font-size: 20px;
   }

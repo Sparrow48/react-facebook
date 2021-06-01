@@ -19,7 +19,6 @@ function App() {
           <div className={classes.navbar}>
             <Navbar />
           </div>
-
           <div className={classes.body}>
             <div className={classes.mainBody}>
               <Main />

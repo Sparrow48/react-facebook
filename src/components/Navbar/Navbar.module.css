@@ -1,6 +1,4 @@
 .navbar {
-  /* display: flex;
-  justify-content: space-between; */
   display: grid;
   grid-template-columns: 20% 50% 20%;
   column-gap: 5%;
