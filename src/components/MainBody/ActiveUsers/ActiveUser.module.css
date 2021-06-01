@@ -8,6 +8,9 @@
   padding: 10px 0px;
   overflow-x: scroll;
 }
+.activeUser {
+  cursor: pointer;
+}
 .createRoom {
   display: flex;
   cursor: pointer;

@@ -113,25 +113,6 @@
   }
 }
 
-/* @media (max-width: 1123px) {
-  .navbar {
-    display: block;
-    width: 100%;
-  }
-  .firstPart {
-    display: none;
-  }
-  .middlePart {
-    display: flex;
-    flex: 0.45;
-    justify-content: left;
-  }
-
-  .lastPart {
-    display: none;
-  }
-} */
-
 @media (max-width: 1123px) {
   .navbar {
     grid-template-columns: 10% 55% 25%;
@@ -140,6 +121,16 @@
     display: none;
   }
   .profileDetails {
+    display: none;
+  }
+}
+
+@media (max-width: 730px) {
+  .navbar {
+    grid-template-columns: 15% 65% 5%;
+    grid-column: 5;
+  }
+  .lastPart {
     display: none;
   }
 }

@@ -1,5 +1,6 @@
 .storyItem {
   height: 210px;
+  cursor: pointer;
 }
 
 .story {
