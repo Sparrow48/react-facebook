@@ -44,6 +44,26 @@
   padding-right: 15px;
 }
 
+@media (max-width: 699px) {
+  .postTopIcon:hover {
+    display: none;
+  }
+
+  .postTopDetails {
+    margin-left: -75%;
+  }
+}
+@media (max-width: 450px) {
+  .postTopDetails {
+    margin-left: -65%;
+  }
+}
+@media (max-width: 375px) {
+  .postTopDetails {
+    margin-left: -60%;
+  }
+}
+
 @media (min-width: 1601px) {
   .postTop {
     padding: 20px;

@@ -1,7 +1,9 @@
 .createPostBottom {
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  font-size: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .createPostBottomItem {
@@ -18,24 +20,24 @@
 }
 
 .createPostBottomItem p {
-  padding: 0px 10px;
+  padding: 0px 7px;
 }
 
 .createPostBottomItemIconLive {
-  height: 25px;
-  width: 25px;
-  margin-top: 12px;
+  height: 15px;
+  width: 15px;
+  margin-top: 8px;
   color: red;
 }
 .createPostBottomItemIconPhoto {
-  height: 25px;
-  width: 25px;
-  margin-top: 12px;
-  color: lightseagreen;
+  height: 15px;
+  width: 15px;
+  margin-top: 8px;
+  color: rgb(37, 178, 32);
 }
 .createPostBottomItemIconHappy {
-  height: 25px;
-  width: 25px;
-  margin-top: 12px;
-  color: yellow;
+  height: 15px;
+  width: 15px;
+  margin-top: 8px;
+  color: rgb(150, 43, 177);
 }

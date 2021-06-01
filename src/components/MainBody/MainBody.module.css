@@ -26,10 +26,12 @@
     padding-top: 0;
   }
   .storyForMobile button {
+    font-size: 10px;
     color: #2f88fc;
     background-color: #222b29;
     padding: 5px 35%;
-    margin-left: 2.5%;
+    margin-left: 5%;
+    margin-right: 5%;
     border: none;
     outline: none;
   }
@@ -40,5 +42,18 @@
 
   .storyForDesktop {
     display: none;
+  }
+}
+
+@media (min-width: 700px) {
+  .storyForMobile {
+    display: none;
+  }
+}
+
+@media (max-width: 699px) {
+  .storyForMobile button {
+    margin-left: 3.5%;
+    margin-right: 3.5%;
   }
 }

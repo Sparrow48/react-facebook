@@ -1,6 +1,7 @@
 .app {
   background-color: #18191a;
   max-width: 1480px;
+  overflow-x: hidden;
   /* max-width: auto; */
 }
 

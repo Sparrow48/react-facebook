@@ -2,7 +2,8 @@ import React from "react";
 import classes from "./BottomForMobile.module.css";
 
 import { RiLiveLine } from "react-icons/ri";
-import { IoMdPhotos, IoMdHappy } from "react-icons/io";
+import { IoMdPhotos } from "react-icons/io";
+import { BiVideoPlus } from "react-icons/bi";
 import { Link } from "react-router-dom";
 
 function BottomForMobile() {
@@ -20,8 +21,8 @@ function BottomForMobile() {
           <p>photo</p>
         </div>
         <div className={classes.createPostBottomItem}>
-          <IoMdHappy className={classes.createPostBottomItemIconHappy} />
-          <p>Feeling</p>
+          <BiVideoPlus className={classes.createPostBottomItemIconHappy} />
+          <p>Room</p>
         </div>
       </div>
     </div>

@@ -82,6 +82,11 @@
     margin-left: 0px;
     border-radius: 0;
   }
+  .createPostTop input {
+    width: 90%;
+    background-color: #18191a;
+    border: 0.1px solid gray;
+  }
   .forDesktop {
     display: none;
   }

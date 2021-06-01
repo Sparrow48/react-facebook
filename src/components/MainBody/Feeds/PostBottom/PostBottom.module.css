@@ -1,6 +1,6 @@
 .postBottom {
   display: grid;
-  grid-template-columns: 26% 38% 26% 12%;
+  grid-template-columns: 26% 38% 26% 10%;
   padding: 0px 10px;
 }
 .postBottomReaction {
@@ -34,12 +34,28 @@
   margin-top: 20px;
 }
 
-.profileInformation:hover {
-  background-color: rgb(87, 84, 84);
-  border-radius: 10px;
+@media (min-width: 700px) {
+  .profileInformation:hover {
+    background-color: rgb(87, 84, 84);
+    border-radius: 10px;
+  }
+
+  .postBottomReaction:hover {
+    background-color: rgb(87, 84, 84);
+    border-radius: 10px;
+  }
 }
 
-.postBottomReaction:hover {
-  background-color: rgb(87, 84, 84);
-  border-radius: 10px;
+@media (max-width: 699px) {
+  .postBottom {
+    display: grid;
+    grid-template-columns: 28% 44% 28%;
+    padding: 0px 10px;
+  }
+  .postBottomReaction a {
+    margin-left: 25px;
+  }
+  .profileInformation {
+    display: none;
+  }
 }

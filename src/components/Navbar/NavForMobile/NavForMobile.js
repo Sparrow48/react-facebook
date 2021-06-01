@@ -18,7 +18,7 @@ function NavForMobile() {
   return (
     <nav className={classes.navbar}>
       <div className={classes.navTopPart}>
-        <h1>Facebook</h1>
+        <h1>facebook</h1>
         <div className={classes.topIcons}>
           <Link to='/'>
             <FaSearch className={classes.iconTop} />

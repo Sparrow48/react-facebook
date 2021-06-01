@@ -13,7 +13,7 @@ function CreatePost() {
     <div className={classes.createPost}>
       <div className={classes.createPostTop}>
         <img src={ProfilePic} alt='profile_pic' />
-        <input type='text' placeholder='Whats on your mind, Nasib?' />
+        <input type='text' placeholder="What's on your mind, Nasib?" />
       </div>
       <div className={classes.devider}></div>
       <div className={classes.forDesktop}>

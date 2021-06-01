@@ -14,6 +14,10 @@
   justify-content: space-between;
   color: #2f88fc;
 }
+.topIcons {
+  display: flex;
+  margin-right: -20px;
+}
 
 .iconTop {
   height: 100%;
@@ -55,14 +59,29 @@
   margin-left: -33px;
 }
 
-.iconBottom::after {
-  color: #2f88fc;
-}
-
 .iconBottom:active {
-  color: #2f88fc;
+  color: #16181a;
 }
 
-.iconBottom:hover {
-  background-color: rgb(87, 84, 84);
+@media (max-width: 375px) {
+  .topIcons {
+    display: flex;
+    margin-right: 0;
+  }
+  .iconTop {
+    width: 15px;
+    padding: 5px 10px;
+  }
+
+  .iconBottom {
+    width: 15px;
+    padding: 5px 10px;
+    margin-top: 0px;
+  }
+  .imgBottom img {
+    height: 14px;
+    width: 14px;
+    margin-top: 13px;
+    margin-left: -20px;
+  }
 }

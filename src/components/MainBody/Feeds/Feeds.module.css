@@ -19,6 +19,7 @@
   width: 100%;
   background-color: gray;
 }
+
 @media (max-width: 699px) {
   .feed {
     background-color: #18191a;

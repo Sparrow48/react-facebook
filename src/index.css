@@ -17,5 +17,6 @@ code {
   body {
     background-color: rgb(87, 84, 84);
     overflow-x: hidden;
+    font-size: 11px;
   }
 }
