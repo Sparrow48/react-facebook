@@ -107,25 +107,13 @@
   background-color: rgb(87, 84, 84);
 }
 
-@media (max-width: 1123px) {
-  .navbar {
-    grid-template-columns: 10% 55% 25%;
-  }
-  .searchOption input {
-    display: none;
-  }
-  .profileDetails {
-    display: none;
-  }
-}
-
 @media (min-width: 1850px) {
   .navbar {
     grid-template-columns: 15% 50% 25%;
   }
 }
 
-@media (max-width: 1123px) {
+/* @media (max-width: 1123px) {
   .navbar {
     display: block;
     width: 100%;
@@ -140,6 +128,18 @@
   }
 
   .lastPart {
+    display: none;
+  }
+} */
+
+@media (max-width: 1123px) {
+  .navbar {
+    grid-template-columns: 10% 55% 25%;
+  }
+  .searchOption input {
+    display: none;
+  }
+  .profileDetails {
     display: none;
   }
 }
