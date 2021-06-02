@@ -16,7 +16,7 @@
 }
 .topIcons {
   display: flex;
-  margin-right: -20px;
+  margin-right: 0px;
 }
 
 .iconTop {
@@ -72,10 +72,6 @@
 }
 
 @media (max-width: 375px) {
-  .topIcons {
-    display: flex;
-    margin-right: 0;
-  }
   .iconTop {
     width: 15px;
     padding: 5px 10px;
